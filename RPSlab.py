@@ -1,12 +1,15 @@
 import sys
 import random
 
-arguments = sys.argv[1]
+#arguments = sys.argv[1]
+
+arguments = ''
 
 def pick_rps(list):
     return random.choice(list)
 
 word_list = ['rock', 'paper', 'scissors']
+arguments = input("rock, paper or scissors? ")
 
 print("you pick " + arguments)
 comp_rps = pick_rps(word_list)
