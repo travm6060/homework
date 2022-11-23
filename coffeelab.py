@@ -5,7 +5,7 @@ agentQpref = 'decaf coffee'
 agentSpref = 'coffee'
 agentMpref = 'tea'
 
-coffee_available = False
+coffee_available = True
 tea_available = True
 decaf_available = True
 argv = customer
