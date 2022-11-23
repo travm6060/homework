@@ -9,7 +9,10 @@ def pick_rps(list):
     return random.choice(list)
 
 word_list = ['rock', 'paper', 'scissors']
-arguments = input("rock, paper or scissors? ")
+
+while arguments not in word_list:
+	arguments = input("rock, paper or scissors? ")
+	arguments = arguments.lower()
 
 print("you pick " + arguments)
 comp_rps = pick_rps(word_list)
